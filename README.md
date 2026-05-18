@@ -26,15 +26,15 @@ The core technologies driving this application include:
 Follow these steps to configure and run the chatbot on your local environment or system:
 
 ## 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/HexSoftwares_AI_Chatbot.git](https://github.com/YOUR_GITHUB_USERNAME/HexSoftwares_AI_Chatbot.git)
+bash
+git clone [https://github.com/Sumbulzahra/HexSoftwares-Internship]
 cd HexSoftwares_AI_Chatbot
 
 ---
 
 ##2. Install Dependencies
 Install the required packages using pip:
-```bash
+bash
 pip install streamlit google-generativeai
 
 ---
@@ -50,7 +50,7 @@ genai.configure(api_key="YOUR_ACTUAL_API_KEY")
 ##4. Run the Application
 Launch the Streamlit web server from your terminal:
 
-```bash
+bash
 streamlit run app.py
 
 ---
