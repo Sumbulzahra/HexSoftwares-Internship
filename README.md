@@ -76,7 +76,6 @@ Web-Based Accessibility: Built on top of Streamlit, making the application fully
 ##Connect with Me
 Developed with dedication for the Hex Softwares Internship Tasks. Feel free to check out my profiles to follow my journey!
 
-GitHub: Your GitHub Profile
 
 LinkedIn: Your LinkedIn Profile
 
