@@ -77,5 +77,5 @@ Web-Based Accessibility: Built on top of Streamlit, making the application fully
 Developed with dedication for the Hex Softwares Internship Tasks. Feel free to check out my profiles to follow my journey!
 
 
-LinkedIn: Your LinkedIn Profile
+LinkedIn: https://www.linkedin.com/in/miss-s-zahra/
 
