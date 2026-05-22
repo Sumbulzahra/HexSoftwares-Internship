@@ -1,80 +1,60 @@
-# AI Chatbot Development
+# AI Chatbot Development - HexSoftware Internship Project
 
-Brief description of project placeholder. ---
-
-## Features
-
-- Advanced NLP Capabilities: Utilizes gemini-2.5-flash to process, understand, and reply to user inputs intelligently.
-- Modern UI/UX: Built with Streamlit's native chat components (st.chat_message and st.chat_input) for an elegant dashboard look.
-- Session State Management: Dynamically maintains the chat history during the current active session.
-- Robust Error Handling: Designed with try-except safety blocks to ensure uninterrupted user conversations.
+An interactive, AI-powered web chatbot developed during my **AI Chatbot Development** internship at **HexSoftware**. 
+This chatbot is designed to provide automated, smart responses, enhancing user engagement and streamline communication.
 
 ---
 
-## Tech Stack
+## 🚀 Live Demo
 
-The core technologies driving this application include:
-
-- Language: Python 3.9+
-- Frontend Framework: Streamlit (Web-based Interface)
-- AI Engine & NLP: Google Generative AI SDK (gemini-2.5-flash)
+You can interact with the live deployed chatbot here:
+👉 **[Live Chatbot Link](https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/05/22/08/20260522085237-20IRKL0D.json)**
 
 ---
 
-## Installation & Setup Guide
+## ✨ Features
 
-Follow these steps to configure and run the chatbot on your local environment or system:
-
-## 1. Clone the Repository
-bash
-git clone [https://github.com/Sumbulzahra/HexSoftwares-Internship]
-cd HexSoftwares_AI_Chatbot
+*   **Natural Language Understanding (NLU):** Interprets and processes user intents efficiently.
+*   **Context-Aware Conversations:** Maintains dialogue flow for a seamless user experience.
+*   **Web-Based Interface:** Fully responsive design accessible directly through the browser.
+*   **Dynamic Configuration:** Loaded securely using JSON-based cloud configurations via Botpress.
 
 ---
 
-##2. Install Dependencies
-Install the required packages using pip:
-bash
-pip install streamlit google-generativeai
+## 🛠️ Tech Stack & Tools
+
+*   **Platform:** [Botpress Cloud](https://botpress.com/)
+*   **Configuration:** JSON Cloud Storage (`bpcontent.cloud`)
+*   **Deployment:** Botpress Webchat v3.6 Shareable Interface
 
 ---
 
-##3. Configure the API Key
-Open the app.py script and replace the placeholder with your actual Gemini API Key inside the configuration block:
+## 📂 Configuration Details
 
-Python
-genai.configure(api_key="YOUR_ACTUAL_API_KEY")
-
----
-
-##4. Run the Application
-Launch the Streamlit web server from your terminal:
-
-bash
-streamlit run app.py
+The chatbot utilizes a cloud-native configuration file to manage conversations, variables, and knowledge bases:
+*   **Config URL:** `https://files.bpcontent.cloud/2026/05/22/08/20260522085237-20IRKL0D.json`
 
 ---
 
-##How to Use
-Once the application starts, it will automatically open a tab in your default web browser at http://localhost:8501.
+## ⚙️ How to Embed this Chatbot
 
-Type any prompt, technical question, or customer support query into the chat input bar at the bottom.
+If you want to integrate this webchat into an external HTML webpage, you can use the following snippet:
 
-The virtual agent will instantly process the natural language context and stream back an intuitive, human-like response.
+```html
+<iframe
+  src="[https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/05/22/08/20260522085237-20IRKL0D.json](https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/05/22/08/20260522085237-20IRKL0D.json)"
+  width="100%"
+  height="600"
+  style="border: none;"
+></iframe>
+
+
+📝 Internship Acknowledgement
+This project was built as part of the formal requirements for the AI Chatbot Development Internship program at HexSoftware.
+Special thanks to the mentors and the team for providing guidance on cloud-native conversational AI workflows.
+
+👤 Author
+GitHub: @Sumbulzahra
+
 
 ---
-
-##Project Scope & Guidelines Alignment
-Virtual Agent: Successfully handles custom user prompts and simulates customer support workflows flawlessly.
-
-NLP Integration: Seamlessly processes text understanding via Google's Gemini infrastructure.
-
-Web-Based Accessibility: Built on top of Streamlit, making the application fully responsive and ready for cloud web hosting.
-
----
-
-##Connect with Me
-Developed with dedication for the Hex Softwares Internship Tasks. Feel free to check out my profiles to follow my journey!
-
-
-LinkedIn: https://www.linkedin.com/in/miss-s-zahra/
